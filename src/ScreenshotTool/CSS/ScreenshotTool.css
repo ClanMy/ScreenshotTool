@@ -1,0 +1,28 @@
+/*
+这个css写在根目录下，
+因为后期可以挪出去作为一个单独的工具使用。
+*/
+HBox {
+    -fx-background-color: #d9d9d9;
+    /*-fx-padding: 15 5 0 5;*/
+    /*-fx-font-size: 15px;*/
+    /*-fx-effect: dropshadow(three-pass-box, #000000, 0,10, 0, 10);*/
+    /*-fx-cursor: hand;*/
+}
+
+HBox Button {
+    -fx-background-color: #ffffff00;
+    -fx-border-width: 0 1 0 0;
+    -fx-border-color: #7b7b7b;
+}
+
+/*去除工具栏最后一个按钮的边框*/
+#closeScreenshot {
+    -fx-border-width: 0 0 0 0;
+}
+
+HBox Button:hover {
+    -fx-background-color: #00000010;
+}
+
+

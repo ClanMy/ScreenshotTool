@@ -1,0 +1,12 @@
+/*保存到本地按钮*/
+#saveToLocal {
+    -fx-background-color: #606060;
+    /*-fx-border-color: #bfbfbf;*/
+    /*-fx-border-width: 3;*/
+    -fx-text-fill: #eeeeee;
+}
+
+#saveToLocal:hover{
+
+    -fx-opacity: 0.8;
+}
